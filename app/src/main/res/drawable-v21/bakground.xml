@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- res/drawable/myrect.xml -->
+    <!-- realisation d degrade qui commence avec du rose et termine avec du noir pour avoir un fonc transparent -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+<stroke android:width="2dip" android:color="@color/white"/>
+    <corners android:radius="60dp" />
+    <gradient
+
+        android:endColor="#222222"
+        android:startColor="#c01e67"
+        android:type="linear"
+
+        />
+</shape>
+
